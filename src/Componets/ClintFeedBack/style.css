@@ -1,0 +1,50 @@
+.clint-feedback-box{
+    width: 590px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}.clint-feedback-box::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background:#E6E6E6;;
+    position: absolute;
+    bottom: -20px;
+}
+.clint-logo{
+    width: 38px;
+height: 38px;
+flex-shrink: 0;
+overflow: hidden;
+border-radius: 147px;
+}
+.clint-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.clint-text{
+
+}
+.clint-name span{
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.clint-message span{
+    color: #756F6F;
+font-family: Josefin Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media screen and (max-width:600px) {
+    .clint-feedback-box{
+        width: 90%;
+        padding: 0;
+    }
+}

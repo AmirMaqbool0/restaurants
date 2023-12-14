@@ -1,0 +1,217 @@
+.hotel-detail-container{
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    overflow: hidden;
+    
+}
+.hotel-detail-banner{
+    width: 1480px;
+height: 392px;
+flex-shrink: 0;
+background: url(https://s3-alpha-sig.figma.com/img/e439/80a0/4dd43b737bb8a1437ce3cd14b93a24bd?Expires=1703462400&Signature=b3X3tgVHLXpBtvzm6mPFkr8G5PoOtq-N7ee9zZLRvrxwp~l08Nv9EY4wU0o4VhlfVGKksTdq-vtLswwW6RtD6C2fhzUnHG9SfOV63ATh4x7dcbmxDafpWMiDBnUvqVRGEDLT8e1ZZ7J-SxKf5fEH0No9rR0zNiaJfO~fF04okQPZlOnYSxdtQ6PFZgFarqbM2wg6KzsKOyURLiSgXXblBF8ELnUd94ZyzkrG8WKpEzy~Ri~JhWw-dGHEE5MxKems~bgLy35TZLXDGd1kCUtCrVp0yv-CUFqS0QTi4BVBu9YdkhRVLtzQnzErEhF6EFWHu3t8lYtJHvNsEPw9na1MfQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.resturenr-video{
+    width: 690px;
+    height: fit-content;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    margin-top: -180px;
+   
+}
+.resturent-media{
+    display: flex;
+    gap: 20px;
+}
+.resturent-video-titel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resturent-video-titel span{
+    color: #FF4020;
+font-family: Josefin Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.resturent-video-btn{
+    display:flex ;
+    gap: 20px;
+}
+.resturent-video-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 140px;
+    gap: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+.simili-resturent{
+    width: 380px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.show-more-btn{
+    width: 122px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 40px;
+background: #FF4020;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+color: white;
+cursor: pointer;
+}
+.hotel-calender{
+    width: 315px;
+height: 374.19px;
+flex-shrink: 0;
+background: #2F2F2F;
+padding: 10px;
+}
+.react-calendar{
+    background-color:#2F2F2F !important ;
+   color: white;
+   border: none !important;
+   outline: none;
+   margin-top: 20px;
+}
+.react-calendar button{
+    color: white;
+}
+.react-calendar button:hover{
+    background: gray !important;
+}
+.calendar-heading span{
+    width: 159.186px;
+height: 12.962px;
+flex-shrink: 0;
+color: white;
+font-size: 25px;
+}
+.booking-btn{
+
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.booking-btn span{
+    color: #FFF;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+width: 267px;
+padding: 11px 9px;
+justify-content: center;
+align-items: center;
+gap: 22px;
+border-radius: 30px;
+background: #FF4020;
+}
+.hotel-detail-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hotel-detail-rating-heading span{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.hotel-clint-feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.resturent-card{
+    margin: 20px;
+}
+.resturent-video-player{
+    width: 90%;
+    height: 300px;
+}
+
+@media screen and (max-width:1480px) {
+    .resturent-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }    
+    .resturenr-video{
+        margin-top: 0;
+        
+     
+    }
+    .hotel-detail-banner{
+        width: 90%;
+    }
+}
+@media screen and (max-width:700px){
+    .resturent-video-player{
+        width: 100%;
+    }.hotel-detail-banner{
+    width: 100%;
+    height: fit-content;
+    }
+    .resturenr-video{
+        width: 500px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hotel-clint-feedback{
+        -ms-flex-align: start;
+    }
+}
+@media screen and (max-width:540px){
+    .resturent-video-player{
+        width: 100%;
+    }
+    .resturenr-video{
+        width: 100%;
+     
+    }
+}
+@media screen and (max-width:480px){
+    
+    .resturenr-video{
+        width: 400px;
+     
+    }
+}
+@media screen and (max-width:400px){
+    
+    .resturenr-video{
+        width: 370px;
+     
+    }
+
+}

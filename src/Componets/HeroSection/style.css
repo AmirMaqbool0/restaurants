@@ -1,0 +1,72 @@
+.hero-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+   
+}
+.hero-section{
+    width: 90%;
+    height: 576px;
+    background: url(https://s3-alpha-sig.figma.com/img/f72d/3898/38bad707daa168578d9a5707c3e95b18?Expires=1702857600&Signature=MvFTxzwj-s2Ubv6hhtFxnye5R21ejQuAcvCevIbXVk4p01JD0Xg-K5JW~tgyQXGB3DCiVk2GiR7qDWbf2Ku7K0D8a4G-9jPIbt6xvySUIIaQhGYU~zB6FetPR0JuQKi8XQOY-YLTOepLE2lZEN3yt6UrUN2s0MsJeiQqPm~1whIzrRU3AApbN721UnlMmmeUuStesGjs0irLrwvySgTGp0hAam2jSfsggR4BC5C2FbtQkfoaMi5PbrOOXyF7PRkNb5HfFxPytWlaQEG7aUTXx0kGa26fAQou2h9nJk5i~9BOEo04EnnHc8rjsEBXMf45bIhhq0IV6MrKxIS1UV9LlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+.text-content{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.text-heading h2{
+  font-size: 54px;
+  font-weight: 700;
+line-height: 74px;
+color: white;
+}
+.signUp-btn{
+    display: flex;
+    gap: 20px;
+}
+.signUp-btn button{
+    display: flex;
+width: 112px;
+padding: 11px 9px;
+justify-content: center;
+align-items: flex-end;
+gap: 10px;
+background: orangered;
+border: none;color: white;
+cursor: pointer;
+
+}
+   @media screen and (max-width:768px) {
+ .hero-container{
+    padding: 10px;
+   }  
+}
+@media screen and (max-width:600px) {
+    .text-heading h2{
+        font-size: 35px;
+    }
+    .hero-section{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+   .signUp-btn button{
+    width: 70px;
+    padding: 9px 7px;
+   }
+   .text-heading h2{
+font-size: 25px;
+line-height: 40px;
+   }
+  
+}

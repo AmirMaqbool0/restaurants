@@ -1,0 +1,33 @@
+.more-hotel-banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-hotel-banner{
+    width: 95%;
+height: 405px;
+flex-shrink: 0;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(https://s3-alpha-sig.figma.com/img/7e06/0771/3a91ca8a096b09be0839c5ffea33e1a5?Expires=1703462400&Signature=KCkMpg29gVpDXD4a7aGGh4bYa1KaQl7ksEhGejZ3IzHTHwqGV9ht-xmrJVcSr-ELLmBgCdWXgJlMFNUy9iFOoYgcHB7-IE1wUxmZSy~j0d8cVdDb~bo5oX1MfxNtt0X6y43MlZdm44X1UvPlpLMbarMgAAXdr~hkhzZOXX0a8CErRk-BNStBQzFbmYdODWBYaDqZXltuEi3~w6sk3jm49HD-fZVRFogy1DGRDSmTLCOuyM0LObSa3VE-W62L~cGUEJUD4LuHLzM0ZvlIYqKiQxvSzIGbL~qmS3gIHnJHYPCg3uEFELRX5D52agd~MSH6f0o855FUMZvLlpVRRkb-5Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% ;
+margin-top: 70px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+z-index: 1;
+
+}
+.back-link{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-link span{
+    margin-top: 10px;
+}

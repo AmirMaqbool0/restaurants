@@ -1,0 +1,148 @@
+.more-hotel-container{
+    width: 100%;
+
+    
+}
+.more-hotel-heading{
+    margin-top: 70px;
+text-align: center;
+}.more-hotel-heading span{
+    color: #000;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.titel-filter{
+    width: 147px;
+}
+.resturent-search{
+    display: flex;
+    width: 647.82px;
+    padding: 13px 10px;
+    justify-content: space-between;
+    
+    gap: 10px;
+    border-radius: 3px;
+border: 1px solid #C2C2C2;
+}
+.resturent-search input{
+    height: 100%;
+    width: 90%;
+    
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.search-restrurent-bar{
+    display: flex;
+    gap: 16px;
+   margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.rating-filter{
+width: 221px;
+
+
+}
+.search-bar-btn{
+    display: flex;
+    gap: 10px;
+}
+.search-bar-btn button{
+    display: flex;
+width: 112px;
+padding: 11px 9px;
+justify-content: center;
+align-items: flex-end;
+gap: 10px;
+background: #FF4020;
+align-items: center;
+justify-content: center;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+.hotel-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;margin-bottom: 70px;
+    gap: 20px;
+}
+@media screen and (max-width:1330px) {
+    .titel-filter{
+        width: 120px;
+    }
+    .resturent-search{
+        width: 600px;
+    }
+    .resturent-search input{
+        width: 600px;
+        height: 100%;
+    }
+    .hotel-card-list{
+        display: flex;
+        justify-content: space-around;
+    }
+}@media screen and (max-width:1280px) {
+    .titel-filter{
+        width: 120px;
+    }
+    .resturent-search{
+        width: 500px;
+    }
+    .resturent-search input{
+        width: 90%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:1180px) {
+    .titel-filter{
+        width: 100px;
+    }
+    .resturent-search{
+        width: 400px;
+    }
+    .resturent-search input{
+        width: 90%;
+        height: 100%;
+    }
+    .rating-filter{
+        width:190px ;
+    }
+}
+@media screen and (max-width:990px){
+.resturent-search{
+    width: 350px;
+    
+}
+.rating-filter{
+    width: 150px;
+}
+}
+@media screen and (max-width:870px){
+    .search-bar-btn{
+        display: none;
+    }
+    }
+    @media screen and (max-width:600px){
+        .search-restrurent-bar{
+            display: flex;
+            flex-direction: column;
+        }
+        .titel-filter{width: 90%;}
+        .rating-filter{
+            width: 90%;
+        }
+        .resturent-search{
+            width: 90%;
+        }
+        }
